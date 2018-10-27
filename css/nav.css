@@ -1,0 +1,78 @@
+li{
+	display: inline;
+	float: left;
+}
+
+li a:hover{
+    /*background-color: rgb(212,164,2);*/
+    /*background-color: rgb(244,121,32);*/
+    background-color: rgb(231,178,0);
+    
+}
+
+li a{
+	display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: Franklin Gothic Book;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: rgb(0, 88, 132); //color fondo del menu*/
+	background-color: rgb(0, 88, 132);//azul
+	height: 50px;
+	border-radius: 3px;
+}
+
+#dv_lecturas{
+	display: none;
+}
+
+#dv_multimedia{
+	display: none;
+}
+
+#dv_actividades{
+	display: none;
+}
+
+.li_lecturas:hover #dv_lecturas{
+	display: inline-grid;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.li_multimedia:hover #dv_multimedia{
+	display: inline-grid;
+	position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.li_actividades:hover #dv_actividades{
+	display: inline-grid;
+	position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.opc_padre{
+	/*color: white !important;*/
+	color: white;
+	font-family: Franklin Gothic Heavy;
+}
